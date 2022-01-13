@@ -1,0 +1,179 @@
+:root
+{
+    font-size: 62.5%;
+}
+
+*
+{
+    margin:0;
+    padding:0;
+}
+
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.6rem;
+}
+
+section
+{
+    background-color: #1da33e99;
+    width: 80%;
+    margin: 1rem auto 1rem auto;
+    padding: 1rem;
+}
+
+        .top
+        {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            height: 20rem;
+        }
+
+            .blume1, .blume2, .buy
+            {
+                width: 20rem;
+                height: 100%;
+                border: solid 1px;
+            }
+
+            .blume1
+            {
+                background: url("./images/flower_bg.jpg");
+                position: relative;
+            }
+
+            .blume1 img
+            {
+                width: 100%;
+                height: 100%;
+            }
+
+            .blume1 div
+            {
+                width: 9rem;
+                height: 9rem;
+                border: solid 1px;
+            }
+
+                #b_art1
+                {
+                    position: absolute;
+                    left: 0.5rem;
+                    top: 0.5rem;
+                }
+
+                #b_art2
+                {
+                    position: absolute;
+                    top: 0.5rem;
+                    right: 0.5rem;
+                }
+
+                #b_art3
+                {
+                    position: absolute;
+                    bottom: 0.5rem;
+                    left: 0.5rem;
+                }
+
+                #b_art4
+                {
+                    position: absolute;
+                    bottom: 0.5rem;
+                    right: 0.5rem;
+                }
+
+
+
+            .blume2
+            {
+                background: url("./images/flower_bg.jpg");
+                position: relative;
+            }
+
+            .blume2 img
+            {
+                width: 100%;
+                height: 100%;
+            }
+
+            .blume2 div
+            {
+                width: 8rem;
+                height: 8rem;
+                border: solid 1px;
+            }
+
+                #r_art1
+                {
+                    position: absolute;
+                    left: 0.5rem;
+                    top: 0.5rem;
+                }
+
+                #r_art2
+                {
+                    position: absolute;
+                    top: 6.5rem;
+                    right: 0.5rem;
+                }
+
+                #r_art3
+                {
+                    position: absolute;
+                    bottom: 0.5rem;
+                    left: 0.5rem;
+                }
+
+                .id
+                {
+                    background-color: #24242499;
+                    color:#eee;
+                    position: absolute;
+                    bottom: 0;
+                    right: 1rem;
+                }
+
+                h2
+                {
+                    font-size: 1.6rem;
+                    width: 100%;
+                    display: block;
+                    padding: 1rem 0.3rem 1rem 0.3rem;
+                }
+
+                .text
+                {
+                    font-size: 1.1rem;
+                    padding: 0.5rem;
+                }
+
+        table tr td
+        {
+            font-size: 1rem;
+            text-align: center;
+            padding: 0 1.5rem;
+            border: solid 1px #282828;
+        }
+
+        table
+        {
+            margin: 2rem auto 0 auto;
+            border-collapse: collapse; 
+        }
+
+        th
+        {
+            background-color: #eeeeee99;
+            font-size: 1rem;
+            border: solid 1px green;
+        }
+
+            .rabatt
+            {
+                color: rgb(204, 0, 0);
+                font-size: 1.5rem;
+                font-weight: 600;
+            }

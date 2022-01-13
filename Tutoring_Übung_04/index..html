@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styles.css">
+   <link rel="stylesheet" href="forms.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <section>
+            <div class="top">
+                <div class="blume1">
+                    <div id="b_art1">
+                        <img src="./images/orchidee.jpg" alt="">
+                        <p class="id">#1001</p>
+                    </div>
+                    <div id="b_art2">
+                        <img src="./images/begonie.jpg" alt="">
+                        <p class="id">#1002</p>
+                    </div>
+                    <div id="b_art3">
+                        <img src="./images/tagetes.jpg" alt="">
+                        <p class="id">#1003</p>
+                    </div>
+                    <div id="b_art4">
+                        <img src="./images/flammendes-kaethchen.jpg" alt="">
+                        <p class="id">#1003</p>
+                    </div>
+                </div>
+                <div class="buy">
+                    <h2>Gewöhnliche Blumen</h2>
+                    <p class="text">
+                        Lorem10 ipsum dolor sit amet consectetur adipisicing elit. Minima, maiores.
+                    </p>
+                    <form action="POST">
+                        <select id="country" name="flower">
+                            <option value="1001">Orichidee</option>
+                            <option value="1002">Begonie</option>
+                            <option value="1003">Tagetis</option>
+                            <option value="1004">Flammendes Käthchen</option>
+                          </select><br><br>
+                        <input type="number">
+                        <button type="submit">Kaufen</button>
+                    </form>
+                </div>
+            </div>
+            <table>
+                <tr>
+                    <th>Artikel</th>
+                    <th>Name</th>
+                    <th>Preis</th>
+                    <th class="rabatt">Angebot</th>
+                </tr>
+                <tr>
+                    <td>1001</td>
+                    <td>Orchidee</td>
+                    <td>24,90 €</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>1002</td>
+                    <td>Begonie</td>
+                    <td>4,99 €</td>
+                    <td rowspan="3" class="rabatt">4,50 €</td>
+                </tr>
+                <tr>
+                    <td>1003</td>
+                    <td>Tagetis</td>
+                    <td>9,90 €</td>
+                </tr>
+                <tr>
+                    <td>1004</td>
+                    <td>flammendes Käthchen</td>
+                    <td>7,99 €</td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <div class="top">
+                <div class="blume2">
+                    <div id="r_art1">
+                        <img src="./images/RegenbogenChrysantheme.jpg" alt="">
+                        <p class="id">#2001</p>
+                    </div>
+                    <div id="r_art2">
+                        <img src="./images/regenbogenrose_eigen.jpg" alt="">
+                        <p class="id">#2002</p>
+                    </div>
+                    <div id="r_art3">
+                        <img src="./images/regenbogenrose.jpg" alt="">
+                        <p class="id">#2003</p>
+                    </div>
+                </div>
+                <div class="buy">
+                    <h2>Regenbogen Blumen</h2>
+                    <p class="text">
+                        Die Regenbogen Rose zählt zu den 5 seltensten Blumen der Welt und startet mit einem Verkaufspreis von $12 Millionen 
+                    </p>
+                    <form action="POST">
+                        <select id="country" name="rainbow">
+                            <option value="2001">Regenbogen Chrysantheme</option>
+                            <option value="2002">Regenbogenrose (eigen)</option>
+                            <option value="2003">Regenbogenrose (imitat)</option>
+                          </select><br><br>
+                        <input type="number">
+                        <button type="submit">Kaufen</button>
+                    </form>
+                </div>
+            </div>
+                <table>
+                    <tr>
+                        <th>Artikel</th>
+                        <th>Name</th>
+                        <th>Preis (Import)</th>
+                        <th>Preis</th>
+                    </tr>
+                    <tr>
+                        <td>2001</td>
+                        <td>Regenbogen Chrysantheme</td>
+                        <td></td>
+                        <td>17,90 €</td>
+                    </tr>
+                    <tr>
+                        <td>2002</td>
+                        <td>Regenbogen Rose (eigene Zucht)</td>
+                        <td></td>
+                        <td>139,90 €</td>
+                    </tr>
+                    <tr>
+                        <td>2003</td>
+                        <td>Regenbogen Rose (imitat)</td>
+                        <td colspan="2">1.200 €</td>
+                    </tr>
+                </table>
+        </section>
+    </main>
+    
+</body>
+</html>

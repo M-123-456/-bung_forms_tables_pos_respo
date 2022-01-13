@@ -1,0 +1,32 @@
+form
+{
+    font-size: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0.5rem;
+    margin-top: 1rem;
+}
+
+input
+{
+    width: 4rem;
+    height: 2rem;
+    font-size: 1rem;
+    padding: 0 0.5rem;
+    margin: 1rem 1.5rem;
+    border-radius: 0.5rem;
+}
+
+button
+{
+    background-color: #06e006;
+    padding: 0.6rem;
+    margin: 1rem 1.5rem;
+    border-radius: 0.3rem;
+}
+
+section option
+{
+    font-size: 1rem;
+}
